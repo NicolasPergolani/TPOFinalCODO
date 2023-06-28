@@ -98,7 +98,6 @@ class Carrito:
         self.conexion = sqlite3.connect('inventario.db') # Conexión a la BD
         self.cursor = self.conexion.cursor()
         self.items = []
-
     def agregar(self, codigo, cantidad, inventario):
         producto = inventario.consultar_producto(codigo)
         if producto is False:
@@ -122,8 +121,7 @@ class Carrito:
         sql = f'UPDATE productos SET cantidad = cantidad - {cantidad} WHERE codigo = {codigo};'
         self.cursor.execute(sql)
         self.conexion.commit()
-        return True
-    
+        return True    
     def quitar(self, codigo, cantidad, inventario):
         for item in self.items:
             if item.codigo == codigo:
@@ -133,9 +131,9 @@ class Carrito:
                 item.cantidad -= cantidad
                 if item.cantidad == 0:
                     self.items.remove(item)
-                    sql = f'UPDATE productos SET cantidad = cantidad + {cantidad} WHERE codigo = {codigo};'
-                    self.cursor.execute(sql)
-                    self.conexion.commit()
+                sql = f'UPDATE productos SET cantidad = cantidad + {cantidad} WHERE codigo = {codigo};'
+                self.cursor.execute(sql)
+                self.conexion.commit()
                 return True
         print("El producto no se encuentra en el carrito")
         return False
