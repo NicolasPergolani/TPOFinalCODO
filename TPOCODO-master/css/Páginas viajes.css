@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	height: 100%;
+}
+
+.head
+{
+	background-color: #333333;
+	width: 100%;
+	height: 160px; 
+	padding-top: 20px;
+}
+
+.article
+{
+    /* overflow: hidden; */
+	height: 100%;
+	margin: 20px 15% 20px;
+}
+
+.container
+{
+	width: 50%;
+	max-height: 75vh;
+	margin-top: 25px;
+}
+
+.image{
+	display: block;
+	width: 630px;
+	height: 420px;
+}
+
+.video
+{	
+	background-color: transparent;
+	display: block;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.upperBody
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.ufirst
+{	
+	background:#464646 ;
+	color: #a3a09d;
+	width: 40%;
+	height: auto;
+	padding-bottom: 20px;		
+}
+
+.ufirst h1
+{
+	padding: 20px 20px 0 20px;
+}
+
+.ufirst p
+{
+	padding: 30px 20px 20px 20px;
+}
+
+.usecond
+{
+	background:#333333 ;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+}
+
+
+.middleBody
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.mfirst
+{
+	width: 50%;
+	height: auto;
+	color: #898590;
+}
+
+.mfirst h3
+{
+	padding: 20px 20px 0 0;
+	font-size: 25px;
+
+}
+
+
+.mfirst p
+{
+	padding: 15px 20px 15px 0;
+	font-size: 14px;
+
+}
+
+.msecond
+{ 	
+	width: 50%;
+	height: auto;
+}
+
+.gallery{
+	display: flex;
+	padding: 30px 20px 25px 0px;
+}
+
+.gallery img
+{
+	width: 130px;
+	height: 130px;	 
+	border: 4px solid #ffffff;
+	box-shadow: 0 0 1px 1px #999; 
+}
+@media (max-width: 1300px) {
+	.upperBody .ufirst p {
+		display: block;
+		width: 100%;
+		height: 300px;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+}
+@media (max-width: 700px) {
+
+
+	.head
+	{
+		
+		width: 100%;
+		height: auto; 
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+.card
+{
+    overflow: hidden;
+	height: auto;
+	margin: 20px 15% 20px;
+}
+
+ .upperBody {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.ufirst
+{	
+	width: 100%;
+	height: auto;		
+}
+
+.ufirst h1
+{	font-size: 24px;
+	padding: 20px 20px 0 20px;
+}
+
+.ufirst p
+{   font-size: 16px;
+	padding: 20px 20px 30px 20px;
+}
+
+.usecond
+{
+	width: 60%;
+	height: auto;
+}
+
+
+.middleBody
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mfirst
+{
+	width: 100%;
+	height: auto;
+}
+
+.mfirst h3
+{
+	padding: 20px 10% 0 10%;
+	font-size: 25px;
+
+}
+
+
+.mfirst p
+{
+	padding: 0px 10% 0 10%;
+	font-size: 14px;
+
+}
+
+.msecond
+{ 	
+	width: 100%;
+	height: auto;
+}
+
+.gallery{
+	display: block;
+	padding: 35px 20% 25px 20%;
+}
+
+.msecond a{
+	font-size: 12px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+}
