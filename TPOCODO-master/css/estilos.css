@@ -246,3 +246,24 @@ footer {
     font-weight: 200;
 
 }
+
+
+/* Viaja con nosotros  */
+
+.viajaNosotros{
+    padding-top: 1.5rem;
+   
+}
+
+
+.bodyIndexCrud{
+    height: 100%;
+    margin: 0;
+    background-image: url(../imagenes/fondosky1.jpg);
+    background-size: cover;
+    
+}
+
+ .title{
+    color: #2e2e33;
+}
