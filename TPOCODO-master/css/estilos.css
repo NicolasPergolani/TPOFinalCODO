@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilos para todo el proyecto */
 * {
     margin: 0;
@@ -267,3 +268,253 @@ footer {
  .title{
     color: #2e2e33;
 }
+=======
+/* Estilos para todo el proyecto */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(/imagenes/fondosky1.jpg);
+    background-size: cover;
+    
+}
+header {
+    
+    width: 100%;
+    height: 80px;
+    background:#2896b4;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.icon {
+    width: 120px;
+    margin-top: 8px;
+}
+
+.logo {
+   
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    color: #333333;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    
+}
+
+.nav-bar ul li a:hover {
+    color:#333333;
+    background-color: #898590;
+}
+
+.nav-bar ul li a.active {
+    color:#333333;
+    background: #a7edf2;
+}
+.contenedor-centrado {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #f9f9f9; */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: #007bff;
+}
+h1{
+    margin: 10px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+}
+
+table {
+    max-width: 90%;
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cadaca60;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 8px;
+    margin: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    padding: 8px;
+    margin: 4px;
+    background-color: #2896b4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.lista a:hover {
+    background-color: #1900ff;
+    scale: 1.25;
+    transition: 0.8s;
+}
+footer {    
+    background-color: #2896b4;
+    height: auto;
+    width: 100vw;
+    
+    padding-top: 40px;
+
+}
+
+.footer-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #333333;
+}
+
+.footer-contenido h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #333333;
+}
+.footer-contenido p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333333;
+}
+.social{
+    color: #333333;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #333333;
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.bottom{
+    background: #2896b4;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.bottom p{
+    color: #464646;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.bottom span{
+    color: #464646;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+>>>>>>> 3760d4f63de488aeb8cc07dabbde634077a9e0a4
