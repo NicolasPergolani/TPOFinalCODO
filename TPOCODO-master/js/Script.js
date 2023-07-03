@@ -9,8 +9,7 @@ let footer = `<div class="footer-contenido">
 </ul>
 </div>
 <div class="bottom">
-<p> Copyright & Diseño<span style="color:#0e0f10
-"> Grupo 6 de Codo a Codo</span></p>
+<p> Copyright & Diseño<span style="color:#0e0f10"> Grupo 6 de Codo a Codo</span></p>
 
 
 </div>
@@ -38,7 +37,6 @@ let header = `  <a href="Index.html"> <div class="logo"> Noticiero para Viajeros
 </li>
 
     <a href="indexCrud.html">Nuestros Destinos </a>
-
 
 </li>
 </ul>
