@@ -48,7 +48,7 @@
             },
             methods: {
                 obtenerProductos() {
-                    const URL = "https://CodoACodoGrupo6.pythonanywhere.com/productos"
+                    const URL = "https://CodoACodoGrupo6.pythonanywhere.com/"
 
                     fetch(URL + 'productos')
                         .then(response => {
@@ -67,7 +67,7 @@
                         })
                 },
                 eliminarProducto(codigo) {
-                    const URL = "https://CodoACodoGrupo6.pythonanywhere.com/productos"
+                    const URL = "https://CodoACodoGrupo6.pythonanywhere.com/"
 
                     fetch(URL + `productos/${codigo}`, { method: 'DELETE' })
                         .then(response => {
